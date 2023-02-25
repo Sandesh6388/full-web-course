@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable/Costom variable</title>
+    <style>
+        :root{
+            /* we can access This variable any Where why?==(This is a globle variable) */
+            /* This term is access by var icon for acces */
+            --primary-color:red;
+            --secondery-color:blue;
+        }
+        .contaier{
+            /* This type of variable can acces onlyone at this container Why?==(This is a local variable)  */
+            --box-color:yellow;
+            display: flex;
+            height: auto;
+            width: auto;
+            /* This is acees by main root  */
+            /* background-color:var(--primary-color); */
+            background-color:var(--box-color) ;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            background-color: var(--secondery-color);
+            padding: 10px 10px ;
+            margin: 10px 10px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaier">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

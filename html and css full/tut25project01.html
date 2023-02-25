@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sandesh fittnes </title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* <!-- css reset --> */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('photo02.jpg');
+        color: white;
+        background-image: no-repeat;
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 62px;
+        top: 31px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 30px auto;
+        /* border: 3px solid blue; */
+
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 4px solid yellow; */
+        position: absolute;
+        right: 55px;
+        top: 36px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 17px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: chocolate;
+    }
+
+    .left img {
+        width: 141px;
+        height: 88px;
+        border-radius: 77px;
+    }
+
+    .left div {
+        text-align: center;
+        /* background-color: chocolate; */
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 1px;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: chocolate;
+    }
+
+    .container {
+        /* border: 2px solid gold; */
+        margin: 145px 159px;
+        padding: 27px 27px;
+        width: 42%;
+        border-radius: 14px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 92%;
+        padding: 18px;
+        margin: 11px auto;
+        border-radius: 20px;
+        border: 2px solid black;
+        font-size: 21px;
+
+    }
+
+    .btn1 {
+        background-color: black;
+        color: white;
+        border: 5px solid black;
+        border-radius: 20px;
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .btn {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="photo.jpg" alt="">
+            <div>SANDESH FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#"> FITNESS CALCULATATOR</a></li>
+                <li><a href="#">CONTACT US </a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">CALL US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in jaunpur</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter  your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone Number ">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Locality">
+            </div>
+        </form>
+        <button class="btn">submit</button>
+        <button class="btn1">reset</button>
+    </div>
+</body>
+
+</html>

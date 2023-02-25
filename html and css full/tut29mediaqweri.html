@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media qweries</title>
+    <style>
+        .box{
+            text-align: center;
+            font-size: 20px;
+            color: aqua;
+            background-color: brown;
+            display: none;
+        }
+        @media only screen and (max-width:300px){
+            #box-11{
+                display: block;
+                background-color: rgb(16, 109, 44);
+            }
+        }
+        @media only screen and (min-width:300px) and (max-width:500px) {
+            #box-12{
+                display: block;
+                background-color: yellow;
+
+            }
+            
+        }
+        @media only screen and (min-width:500px) and (max-width:800px){
+            #box-13{
+                display: block;
+                background-color: rgb(94, 19, 109);
+            }
+        }
+        @media only screen and (min-width:800px) {
+            #box-14{
+                display: block;
+                background-color: darkblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-11">May ak iphone hu </div>
+    <div class="box" id="box-12">may ak Tablate hu </div>
+    <div class="box" id="box-13">May ak deshtop hu </div>
+    <div class="box" id="box-14">may ak large Screen deshtop hu </div>
+    
+</body>
+</html>

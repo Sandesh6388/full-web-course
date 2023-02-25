@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <!-- now we are going to learn Box model  margin padding content border  -->
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        .container{
+                 background-color:#96a72a;
+                 border: 10px solid rgb(32, 32, 28);
+                 /* padding: 30px;
+                 padding-right: 40px;
+                 padding-left: 40px;
+                 padding-top: 20px;
+                 padding-bottom: 20px; */
+                 /* padding:23px 56px 6px 78px; padding = Top right left bottom; */
+                 padding:34px 19px; /* padding :y(top/bottom) x(left/right) */
+                 margin: 20px;
+                 border-radius: 25px;
+                 width: 233px;
+                 /* box-sizing: border-box; */
+                 box-sizing: border-box;
+
+        }
+        body{
+            background-color: #6e1280;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h4>This is Box Model</h4>
+        <p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum debitis aut perferendis. Saepe, ullam! Dicta libero nulla perspiciatis iusto?</p>
+    </div>
+    <div class="container">
+       <h4>This is Box Model</h4>
+        <p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum debitis aut perferendis. Saepe, ullam! Dicta libero nulla perspiciatis iusto?</p>
+    </div>
+    <div class="container">
+       <h4>This is Box Model</h4>
+        <p id="Three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolorum debitis aut perferendis. Saepe, ullam! Dicta libero nulla perspiciatis iusto?</p>
+    </div>
+</body>
+</html>

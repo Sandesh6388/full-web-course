@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-and-text-shadow</title>
+    <style>
+        .cantainer{
+            display: flex;
+        }
+        .box{
+            background-color: aqua;
+            /* border: 2px solid red; */
+            padding: 20px 20px;
+            margin: 20px 20px;
+            text-align: center;
+            /* box-shadow: offset-x offset-y color */
+            /* box-shadow: offset-x offset-y color blur-radius color*/
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color*/
+
+            /* box-shadow: 10px 20px 5px greenyellow; */
+            /* box-shadow: -10px -20px 5px green; */
+            /* box-shadow: -10px -20px 5px green; */
+            /* box-shadow: rgba(33, 40,50, 0.8); */
+            /* box-shadow:-7px -5px 10px 34px rgba(2,4,15, 0.5); */
+            /* box-shadow: inset 3px 5px green; */
+            /* box-shadow: 3px 5px green, 5px 3px red; */
+        }
+        .box h2{
+            /* text-shadow simply add This manner  */
+            text-shadow: 3px 5px red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cantainer">
+        <div class="box" id="id1">1
+            <h2>This is first</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, sit? Consectetur reiciendis provident
+                corporis reprehenderit voluptatum, repellat qui necessitatibus iste ratione itaque quam architecto sint,
+                ut non aliquid animi dignissimos?</p>
+        </div>
+        <div class="box" id="id2">2
+            <h2>This is Second</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui minima omnis vitae, debitis eius quos
+                hic sunt unde doloremque dicta, sapiente aspernatur sequi aperiam modi rem recusandae saepe
+                perspiciatis!</p>
+        </div>
+        <div class="box" id="id3">3
+            <h2>This is Three</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam nemo ullam, ea dolorum ipsam
+                perspiciatis molestias a exercitationem impedit non laudantium voluptatum nostrum, nobis, distinctio
+                expedita sint! Quasi, harum! Nesciunt.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

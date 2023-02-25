@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+    <style>
+        /* child and sibling selector  */
+        /* div p{
+            color: rgb(126, 32, 71);
+
+        }
+        div li h1{
+            color: blue;
+        }
+        div h1{
+            color: green;
+        } */
+        /* This is child selector  */
+        /* div > p{
+            color: rgb(42, 165, 93);
+        } */
+        /* This is sibling selector  */
+        div + p{
+            color: fuchsia;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>hi hello i am first bro </p>
+        <p>ji child of div </p>
+        <div class="second">
+            <ul>
+                <li><h1>This is first parr  </h1> </li>
+            </ul>
+            </div>
+            <p>This is sibllin of div </p>
+        <h1>This is second seccond parr</h1>
+    </div>
+    <h1>This is Third parr </h1>
+    <p>outmost parr </p>
+</body>
+</html>
